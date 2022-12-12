@@ -18,6 +18,11 @@ framework:
     php_errors:
         log: true
 
+    http_client:
+        scoped_clients:
+            fakestore.client:
+                base_uri: '%env(FAKESTOREAPI_BASEURL)%'
+
 when@test:
     framework:
         test: true
