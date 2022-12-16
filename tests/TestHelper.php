@@ -26,10 +26,6 @@ final class TestHelper
         } catch (JsonException $exception) {
             throw new Exception('Failed to encode JSON');
         }
-        // Following condition might not happen due to JSON_THROW_ON_ERROR
-        if ($json === false) {
-            throw new Exception('Failed to encode JSON');
-        }
 
         return $json;
     }

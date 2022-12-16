@@ -18,7 +18,7 @@ final class API
     {
     }
 
-    /** @returns Product[] */
+    /** @return Product[] */
     public function getProducts(): array
     {
         // The request and most methods in response can throw an exception, but for simplicity they are not caught here.
