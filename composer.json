@@ -21,7 +21,9 @@
     "require-dev": {
         "phpstan/phpstan": "^1.9",
         "phpunit/phpunit": "^9.5",
-        "symfony/phpunit-bridge": "^6.2"
+        "psalm/plugin-symfony": "^5.0",
+        "symfony/phpunit-bridge": "^6.2",
+        "vimeo/psalm": "^5.2"
     },
     "config": {
         "allow-plugins": {
