@@ -2,7 +2,7 @@
 
 namespace App\Controller;
 
-use App\Controller\DTO\ProductDTO;
+use App\DTO\ProductDTO;
 use App\FakeStore\AddProductCommand;
 use App\FakeStore\API;
 use App\FakeStore\UpdateProductCommand;
